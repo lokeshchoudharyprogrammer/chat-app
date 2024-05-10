@@ -6,7 +6,7 @@ import { fetchMessages, sendMessage } from '../apis/messages';
 import { useEffect } from 'react';
 import MessageHistory from '../components/MessageHistory';
 import io from "socket.io-client"
-import "./home.css"
+import "./home.css" 
 import { fetchChats, setNotifications } from '../redux/chatsSlice';
 import Loading from '../components/ui/Loading';
 import data from '@emoji-mart/data'
